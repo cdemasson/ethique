@@ -1665,13 +1665,14 @@
 		}
 
 			#nav > ul > li > a:before {
+				font-size: 16pt;
 				display: inline-block;
 				background: #878787;
 				color: #AACCFF;
-				width: 1.65em;
-				height: 1.65em;
-				border-radius: 1.65em;
-				line-height: 1.65em;
+				width: 3.65em;
+				height: 3.65em;
+				border-radius: 0.65em;
+				line-height: 3.65em;
 				text-align: center;
 				box-shadow: 0.125em 0.175em 0 0 rgba(0, 0, 0, 0.125);
 				margin-right: 0.75em;
@@ -2518,4 +2519,17 @@
 
 #tlitem {
 	margin-left: 7px;
+}
+
+div#contai {
+  height: 800px;
+  width: 1200px;
+  border:2px solid #000;
+  overflow-x: scroll;
+ }
+svg#svg {
+  height: 100px;
+  width: 100%;
+  border:1px dotted #ccc;
+  background-color: #ccc;
 }
